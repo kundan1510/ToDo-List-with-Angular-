@@ -21,6 +21,7 @@ export class AppComponent {
         value:this.todoValue,
         isDone:false
       }
+      this.list.push(newItem);
     }
     this.todoValue = "";
   }
